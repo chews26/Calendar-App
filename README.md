@@ -1,5 +1,6 @@
 # 📆 일정관리 앱 📆
 ### [📓 일정관리 앱 만들기 작성 노션 바로가기](https://shinelee26.notion.site/_-12e86ea33f94807cb131f8bcd0feb95d?pvs=4)
+### [🏠 일정관리 앱 만들기 작성 블로그 바로가기](https://shinelee26.tistory.com/tag/spring%20%EC%9D%BC%EC%A0%95%EA%B4%80%EB%A6%AC%EC%95%B1_
 
 ## API 명세서
 | 단계       | 기능       | HTTP 메서드 | 설명         | 엔드포인트                     | 요청 본문                                                                                     | 응답 본문                                                                  | 응답 코드 및 메시지                                        |
