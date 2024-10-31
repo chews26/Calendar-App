@@ -24,20 +24,20 @@
 - 필수 기능 가이드 개발에 필요한 테이블을 생성하는 query를 작성
 ```sql
 CREATE TABLE `users` (
-	`user_id`	INTEGER	NOT NULL,
-	`user_name`	VARCHAR	NOT NULL,
-	`user_password`	VARCHAR	NOT NULL,
-	`create_date`	DATETIME	NOT NULL
+	`user_id` INTEGER NOT NULL,
+	`user_name` VARCHAR NOT NULL,
+	`user_password` VARCHAR	NOT NULL,
+	`create_date` DATETIME NOT NULL
 	PRIMARY KEY (user_id)
 );
 
 CREATE TABLE `event` (
-	`event_id` INTEGER	NOT NULL,
-	`user_id`	INTEGER	NOT NULL,
-	`title`	VARCHAR(100)	NOT NULL,
-	`start_datetime`	DATETIME NOT NULL,
-	`end_datetime`	DATETIME NOT NULL,
-	`description`	VARCHAR(100) NULL
+	`event_id` INTEGER NOT NULL,
+	`user_id` INTEGER NOT NULL,
+	`title`	VARCHAR(100) NOT NULL,
+	`start_datetime` DATETIME NOT NULL,
+	`end_datetime` DATETIME NOT NULL,
+	`description` VARCHAR(100) NULL
 	PRIMARY KEY (event_id)
 	FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
